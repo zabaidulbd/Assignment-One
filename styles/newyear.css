@@ -29,6 +29,7 @@ section {
 
 .navbar {
     float: right;
+    padding-top: 300px;
 }
 
 .nav-title {
@@ -46,6 +47,9 @@ section {
     margin-top: 20px;
     margin-bottom: 20px;
 
+}
+.main{
+    background: #1E1E1E;
 }
 
 .banner {
@@ -99,7 +103,7 @@ section {
     background: linear-gradient(to right, rgba(255, 255, 255, 0) 20%,
             rgba(255, 255, 255, 1)), url(/images/watch.png);
     margin-top: 100px;
-    height: 200px;
+    height: 250px;
 }
 
 .banner-gradiant-title {
@@ -122,16 +126,44 @@ section {
 
 .contact {
     margin-left: 150px;
-    padding-right: 800px;
+    padding-right: 500px;
+    padding-bottom: 100px;
+    color: #ffffff;
 }
 
 .contact-title {
-    color: #F8F8F8;
     padding-top: 100px;
     font-weight: 700;
     font-size: 45px;
     margin-bottom: 5px;
 }
-.contact-details{
-    color: #ffffff
+
+.contact-email {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-phone {
+    margin-bottom: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.subscribe {
+    padding-top: 100px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-right: 200px;
+}
+
+.sub-email {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    background: #151414;
+    padding: 5px 20px 5px 5px;
+    font-size: 18px;
+    color: #F3F3F3;
 }
