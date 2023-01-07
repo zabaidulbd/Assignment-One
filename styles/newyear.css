@@ -3,6 +3,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+section {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 .btn-primary {
     background: #F15B22;
     width: 160px;
@@ -46,11 +51,9 @@
 .banner {
     display: flex;
     align-items: center;
-    margin-left: 100px;
-    margin-right: 200px;
-
 }
-.banner-text{
+
+.banner-text {
     padding-left: 100px;
 }
 
@@ -59,9 +62,32 @@
     font-size: 40px;
     color: #151414;
 }
-.banner-subtitle{
+
+.banner-subtitle {
     font-size: 16px;
     color: #444343;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.my-plan-title {
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+}
+
+.plan {
+    padding-right: 40px;
+}
+
+.plan-container {
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+}
+.plan-title{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
