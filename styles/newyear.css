@@ -8,7 +8,7 @@
     margin-bottom: 100px;
     max-width: 1600px;
     height: 800px;
-    background: url(/images/banner/banner1.png);
+    background: url("../images/banner/banner1.png");
 
 }
 
@@ -104,7 +104,7 @@ section {
 /* banner gradiant styles */
 .banner-gradiant {
     background: linear-gradient(to right, rgba(255, 255, 255, 0) 20%,
-            rgba(255, 255, 255, 1)), url(/images/watch.png);
+            rgba(255, 255, 255, 1)), url("../images/watch.png");
     margin-top: 100px;
     height: 250px;
 }
