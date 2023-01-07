@@ -14,14 +14,16 @@
     border-radius: 5px;
 }
 
-.header {  
+.header {
+    margin-bottom: 100px;
     max-width: 1600px;
-    height: 809px;
+    height: 800px;
     background: url(/images/banner/banner1.png);
 
 }
-.navbar{
-    
+
+.navbar {
+    float: right;
 }
 
 .nav-title {
@@ -39,4 +41,27 @@
     margin-top: 20px;
     margin-bottom: 20px;
 
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 200px;
+
+}
+.banner-text{
+    padding-left: 100px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.banner-subtitle{
+    font-size: 16px;
+    color: #444343;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
