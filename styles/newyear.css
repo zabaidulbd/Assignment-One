@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-primary {
+    background: #F15B22;
+    width: 160px;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+}
+
+.header {  
+    max-width: 1600px;
+    height: 809px;
+    background: url(/images/banner/banner1.png);
+
+}
+.navbar{
+    
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    width: 525px;
+}
+
+.nav-description {
+    width: 494px;
+    font-size: 16px;
+    color: #444343;
+    width: 494px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
