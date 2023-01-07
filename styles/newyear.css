@@ -87,7 +87,51 @@ section {
     gap: 100px;
     margin-top: 50px;
 }
-.plan-title{
+
+.plan-title {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.banner-gradiant {
+    /* background-image: url(/images/watch.png);
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%); */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 20%,
+            rgba(255, 255, 255, 1)), url(/images/watch.png);
+    margin-top: 100px;
+    height: 200px;
+}
+
+.banner-gradiant-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.banner-gradiant-container {
+    padding-left: 40px;
+    padding-top: 60px;
+}
+
+.footer {
+    display: flex;
+    background: #151414;
+    margin-top: 150px;
+}
+
+.contact {
+    margin-left: 150px;
+    padding-right: 800px;
+}
+
+.contact-title {
+    color: #F8F8F8;
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+.contact-details{
+    color: #ffffff
 }
